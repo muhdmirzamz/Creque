@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA161EFF1A1FA743005281E2 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA161EFD1A1FA743005281E2 /* Object.cpp */; };
+		AA58B07F1A20E27D00122412 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA58B07D1A20E27D00122412 /* Enemy.cpp */; };
+		AA58B0821A20F4BC00122412 /* Controls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA58B0801A20F4BC00122412 /* Controls.cpp */; };
+		AA6C88401A20A7AD00FFCF3A /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6C883E1A20A7AD00FFCF3A /* Bullet.cpp */; };
 		AA6D6BF31A1E398C004C5887 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6D6BF21A1E398C004C5887 /* main.cpp */; };
+		AA76173D1A205C8E00C33E93 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA76173B1A205C8E00C33E93 /* Level.cpp */; };
+		AAE613B01A1F4585001B56F2 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE613AF1A1F4585001B56F2 /* SDL2.framework */; };
+		AAE613B31A1F45D9001B56F2 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613B11A1F45D9001B56F2 /* GameManager.cpp */; };
+		AAE613B61A1F45E3001B56F2 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613B41A1F45E3001B56F2 /* GameState.cpp */; };
+		AAE613BA1A1F4E61001B56F2 /* IntroScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613B81A1F4E61001B56F2 /* IntroScene.cpp */; };
+		AAE613BD1A1F4E72001B56F2 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613BB1A1F4E72001B56F2 /* MainMenu.cpp */; };
+		AAE613C01A1F51D1001B56F2 /* Background.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613BE1A1F51D1001B56F2 /* Background.cpp */; };
+		AAE613C41A1F5721001B56F2 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613C21A1F5721001B56F2 /* Player.cpp */; };
+		AAE613C61A1F68A0001B56F2 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE613C51A1F68A0001B56F2 /* SDL2_ttf.framework */; };
+		AAE613CB1A1F6ED5001B56F2 /* Font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE613C91A1F6ED5001B56F2 /* Font.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +37,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA161EFD1A1FA743005281E2 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		AA161EFE1A1FA743005281E2 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		AA58B07D1A20E27D00122412 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		AA58B07E1A20E27D00122412 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		AA58B0801A20F4BC00122412 /* Controls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controls.cpp; sourceTree = "<group>"; };
+		AA58B0811A20F4BC00122412 /* Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controls.h; sourceTree = "<group>"; };
+		AA6C883E1A20A7AD00FFCF3A /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		AA6C883F1A20A7AD00FFCF3A /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
 		AA6D6BEF1A1E398C004C5887 /* Creque */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Creque; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6D6BF21A1E398C004C5887 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA76173B1A205C8E00C33E93 /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		AA76173C1A205C8E00C33E93 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		AAE613AF1A1F4585001B56F2 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		AAE613B11A1F45D9001B56F2 /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
+		AAE613B21A1F45D9001B56F2 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		AAE613B41A1F45E3001B56F2 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		AAE613B51A1F45E3001B56F2 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		AAE613B81A1F4E61001B56F2 /* IntroScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntroScene.cpp; sourceTree = "<group>"; };
+		AAE613B91A1F4E61001B56F2 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		AAE613BB1A1F4E72001B56F2 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		AAE613BC1A1F4E72001B56F2 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		AAE613BE1A1F51D1001B56F2 /* Background.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Background.cpp; sourceTree = "<group>"; };
+		AAE613BF1A1F51D1001B56F2 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		AAE613C21A1F5721001B56F2 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AAE613C31A1F5721001B56F2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AAE613C51A1F68A0001B56F2 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../Softwares/SDL2_ttf.framework; sourceTree = "<group>"; };
+		AAE613C91A1F6ED5001B56F2 /* Font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Font.cpp; sourceTree = "<group>"; };
+		AAE613CA1A1F6ED5001B56F2 /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE613C61A1F68A0001B56F2 /* SDL2_ttf.framework in Frameworks */,
+				AAE613B01A1F4585001B56F2 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +83,8 @@
 		AA6D6BE61A1E398C004C5887 = {
 			isa = PBXGroup;
 			children = (
+				AAE613C51A1F68A0001B56F2 /* SDL2_ttf.framework */,
+				AAE613AF1A1F4585001B56F2 /* SDL2.framework */,
 				AA6D6BF11A1E398C004C5887 /* Creque */,
 				AA6D6BF01A1E398C004C5887 /* Products */,
 			);
@@ -58,6 +102,30 @@
 			isa = PBXGroup;
 			children = (
 				AA6D6BF21A1E398C004C5887 /* main.cpp */,
+				AAE613B11A1F45D9001B56F2 /* GameManager.cpp */,
+				AAE613B21A1F45D9001B56F2 /* GameManager.h */,
+				AAE613B41A1F45E3001B56F2 /* GameState.cpp */,
+				AAE613B51A1F45E3001B56F2 /* GameState.h */,
+				AAE613C91A1F6ED5001B56F2 /* Font.cpp */,
+				AAE613CA1A1F6ED5001B56F2 /* Font.h */,
+				AAE613BE1A1F51D1001B56F2 /* Background.cpp */,
+				AAE613BF1A1F51D1001B56F2 /* Background.h */,
+				AA161EFD1A1FA743005281E2 /* Object.cpp */,
+				AA161EFE1A1FA743005281E2 /* Object.h */,
+				AAE613C21A1F5721001B56F2 /* Player.cpp */,
+				AAE613C31A1F5721001B56F2 /* Player.h */,
+				AA58B07D1A20E27D00122412 /* Enemy.cpp */,
+				AA58B07E1A20E27D00122412 /* Enemy.h */,
+				AA6C883E1A20A7AD00FFCF3A /* Bullet.cpp */,
+				AA6C883F1A20A7AD00FFCF3A /* Bullet.h */,
+				AAE613B81A1F4E61001B56F2 /* IntroScene.cpp */,
+				AAE613B91A1F4E61001B56F2 /* IntroScene.h */,
+				AAE613BB1A1F4E72001B56F2 /* MainMenu.cpp */,
+				AAE613BC1A1F4E72001B56F2 /* MainMenu.h */,
+				AA58B0801A20F4BC00122412 /* Controls.cpp */,
+				AA58B0811A20F4BC00122412 /* Controls.h */,
+				AA76173B1A205C8E00C33E93 /* Level.cpp */,
+				AA76173C1A205C8E00C33E93 /* Level.h */,
 			);
 			path = Creque;
 			sourceTree = "<group>";
@@ -118,7 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA58B07F1A20E27D00122412 /* Enemy.cpp in Sources */,
+				AAE613CB1A1F6ED5001B56F2 /* Font.cpp in Sources */,
 				AA6D6BF31A1E398C004C5887 /* main.cpp in Sources */,
+				AAE613C41A1F5721001B56F2 /* Player.cpp in Sources */,
+				AA58B0821A20F4BC00122412 /* Controls.cpp in Sources */,
+				AAE613BA1A1F4E61001B56F2 /* IntroScene.cpp in Sources */,
+				AAE613B61A1F45E3001B56F2 /* GameState.cpp in Sources */,
+				AAE613C01A1F51D1001B56F2 /* Background.cpp in Sources */,
+				AA76173D1A205C8E00C33E93 /* Level.cpp in Sources */,
+				AA6C88401A20A7AD00FFCF3A /* Bullet.cpp in Sources */,
+				AAE613B31A1F45D9001B56F2 /* GameManager.cpp in Sources */,
+				AAE613BD1A1F4E72001B56F2 /* MainMenu.cpp in Sources */,
+				AA161EFF1A1FA743005281E2 /* Object.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +224,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/muhdmirzamz/Documents/Code/Projects/CPPProjects/Creque;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -158,10 +239,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Users/muhdmirzamz/Documents/Code/Projects/CPPProjects/Creque/SDL2.framework/Versions/A/Headers /Users/muhdmirzamz/Documents/Code/Projects/CPPProjects/Creque/SDL2_ttf.framework/Versions/A/Headers";
 			};
 			name = Debug;
 		};
@@ -186,6 +269,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/muhdmirzamz/Documents/Code/Projects/CPPProjects/Creque;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -193,15 +277,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Users/muhdmirzamz/Documents/Code/Projects/CPPProjects/Creque/SDL2.framework/Versions/A/Headers /Users/muhdmirzamz/Documents/Code/Projects/CPPProjects/Creque/SDL2_ttf.framework/Versions/A/Headers";
 			};
 			name = Release;
 		};
 		AA6D6BF71A1E398C004C5887 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/muhdmirzamz/Documents/Softwares,
+					"$(PROJECT_DIR)/SDL2_ttf.framework/Versions/A/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +302,13 @@
 		AA6D6BF81A1E398C004C5887 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/muhdmirzamz/Documents/Softwares,
+					"$(PROJECT_DIR)/SDL2_ttf.framework/Versions/A/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +332,7 @@
 				AA6D6BF81A1E398C004C5887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

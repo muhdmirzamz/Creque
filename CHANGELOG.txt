@@ -1,0 +1,6 @@
+CHANGELOG
+
+v1.0.0 24 November 2014
+* Added intro scene
+* Added main menu
+* Added a level

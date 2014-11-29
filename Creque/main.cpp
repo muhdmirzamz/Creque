@@ -8,8 +8,48 @@
 
 #include <iostream>
 
+#include "SDL.h"
+#include "SDL_ttf.h"
+
+#include "GameManager.h"
+
+using namespace std;
+
+bool initSDL() {
+	if (SDL_Init(SDL_INIT_VIDEO) != 0) {
+		return false;
+	}
+	
+	return true;
+}
+
+bool initSDLTTF() {
+	if (TTF_Init() == -1) {
+		return false;
+	}
+	
+	return true;
+}
+
 int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
+	// TODO: Optimise the game
+	//       Fix bullets
+	// so far, playable
+	if (!initSDL()) {
+		cout << "SDL could not initialise!\n";
+	}
+	
+	if (!initSDLTTF()) {
+		cout << "SDL TTF could not initialise!\n";
+	}
+	
+	GameManager *gameManager = new GameManager();
+	gameManager->changeGameState(INTRO_SCENE);
+	delete gameManager;
+	gameManager = NULL;
+	
+	TTF_Quit();
+	SDL_Quit();
+	
     return 0;
 }
